@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
+import { createBrowserHistory } from "history";
 import Home from "./components/Home";
 import Login from "./components/Login";
-import { createBrowserHistory } from "history";
 import "./App.css";
 
 function App() {
